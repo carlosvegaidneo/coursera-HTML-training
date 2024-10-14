@@ -1,0 +1,88 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 
+{
+    font-size: 175%;
+    font-weight: bold;
+    color: #080a97;
+    text-align: center; 
+}
+
+p.titlebox 
+{
+    font-size: 125%;
+    font-weight: bold;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    margin: 0;
+    border: 3px solid black;
+    padding: 3px;
+}
+
+#chkbox 
+{
+    background-color: rgb(214, 187, 106);
+}
+
+#bfbox 
+{
+    background-color: rgb(254, 93, 93);
+}
+
+#shbox 
+{
+    background-color: rgb(79, 169, 248);
+}
+
+p.text 
+{
+    margin-top: 35px;
+}
+
+.main_box
+{
+    background-color: #bfbdbd;
+    position: relative;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        border: 3px solid black;
+        margin: 1%;
+        width: 31%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        border: 3px solid black;
+        margin: 1%;
+    }
+    .col-md-6 {
+      width: 48%;
+    }
+    .col-md-12 {
+      width: 98%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        border: 3px solid black;
+        margin: 1%;
+        width: 98%;
+    }
+  }
